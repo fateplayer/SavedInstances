@@ -287,9 +287,12 @@ local _specialQuests = {
   [39288] = { zid=945, daily=true }, -- Terrorfist
   [39289] = { zid=945, daily=true }, -- Doomroller
   [39290] = { zid=945, daily=true }, -- Vengeance
-  -- Order Hall
-  [42481] = { zid=1050, daily=true }, -- Warlock: Ritual of Doom
-  [44707] = { zid=1052, daily=true, sid=228651 }, -- Demon Hunter: Twisting Nether
+    -- Order Hall
+  [42481] = { zid=1050, daily=true, name="Ritual of Doom" }, -- Warlock: Ritual of Doom
+  [43828] = { zid=1068, daily=true, name="Sheep Summon Daily Roll" }, -- Arcane Mage hidden Artifact skin - Sheep summon check
+  [44326] = { zid=1048, daily=true, name="Daily Dreamway Event Roll" }, -- Feral Druid hidden Artifact skin
+  [44384] = { zid=1068, daily=true, name="Daily Portal Event Roll" }, -- Frost Mage hidden Artifact skin - Portal check
+  [44707] = { zid=1052, daily=true, name="Ritual of Doom", sid=228651 }, -- Demon Hunter: Twisting Nether
 }
 
 function addon:specialQuests()
